@@ -13,7 +13,7 @@ Faker GUI is a Web that generates fake data for you. Whether you need to bootstr
 
 ## Installation
 
-Faker GUI requires [Node.js](https://nodejs.org/) v10+ to run.
+Faker GUI requires [Node.js](https://nodejs.org/) v10+ & PHP Version 8 to run.
 
 Install the dependencies and developing the app.
 
@@ -24,6 +24,17 @@ npm i
 cd ..
 composer update --lock
 ```
+
+## Usage
+```sh
+- Using API
+http://127.0.0.1/faker-gui/api/{localization}
+
+- Using GUI
+http://127.0.0.1/faker-gui/{localization}
+```
+
+
 
 ## Plugins
 
